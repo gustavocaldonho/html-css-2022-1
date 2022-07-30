@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+.conteiner{
+    height: 70vh;
+    width: 70%;
+}
+
+.b-superior, .b-inferior{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.q-azul{
+    height: 100%;
+    width: 33.33%;
+    background-color: blue;
+    text-align: center;
+}
+
+img[alt="Estrela Chile"]{
+    height: 45%;
+    margin-top: 18%;
+}
+
+.r-branco{
+    height: 100%;
+    width: 66.66%;
+    background-color: white;
+}
+
+.r-vermelho{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}

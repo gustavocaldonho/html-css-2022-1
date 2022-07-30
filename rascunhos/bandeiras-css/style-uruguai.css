@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+
+#conteiner{
+    display: inline-block;
+    height: 40vh;
+    width: 40%;
+    /* border: 2px solid green; */
+}
+
+#b-superior{
+    display: flex;
+    height: 60%;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+#b-sol{
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    /* border: 2px solid green; */
+}
+
+img[alt="Sol Uruguai"]{
+    width: 80%;
+    margin-top: 5%;
+}
+
+#b-lado-sol{
+    height: 100%;
+    width: 70%;
+    /* border: 2px solid green; */
+}
+
+.l-azul{
+    background-color: cadetblue;
+    height: 25%;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+.l-branco{
+    background-color: white;
+    height: 25%;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+#b-inferior{
+    height: 40%;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+#b-inferior .l-azul{
+    background-color: cadetblue;
+    height: 33.33%;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+#b-inferior .l-branco{
+    background-color: white;
+    height: 33.33%;
+    width: 100%;
+    /* border: 2px solid green; */
+}

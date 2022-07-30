@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+
+#conteiner{
+    height: 80vh;
+    width: 80%;
+    display: flex;
+}
+
+#b-esquerdo, #b-direito{
+    height: 100%;
+    width: 44%;
+    /* border: 2px solid green; */
+}
+
+#b-central{
+    height: 100%;
+    width: 12%;
+    text-align: center
+    /* border: 2px solid green; */
+}
+
+img[alt="Brasão republica-dominicana"]{
+    width: 80%;
+    margin-top: 157%;
+}
+
+.r-azul{
+    height: 39%;
+    width: 100%;
+    background-color: blue;
+    /* border: 2px solid green; */
+}
+
+.r-branco{
+    height: 22%;
+    width: 100%;
+    background-color: white;
+    /* border: 2px solid green; */
+}
+
+.r-vermelho{
+    height: 39%;
+    width: 100%;
+    background-color: red;
+    /* border: 2px solid green; */
+}

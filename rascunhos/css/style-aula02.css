@@ -1,0 +1,82 @@
+:root{
+    --azul: darkblue;
+}
+
+*{
+    font-family: Arial;
+}
+
+body{
+    margin: 0;
+}
+
+#topo{
+    height: 50px;
+    background-color: var(--azul);
+    display: flex;
+}
+
+.menu{
+    padding-top: 12px;
+}
+
+.menu a{
+    color: white;
+    padding-right: 15px;
+}
+
+#topo .titulo{
+    width: 70%;
+    color: white;
+    font-size: 25px;
+    padding: 10px 0px 0px 20px;
+}
+
+h1.titulo{
+    color: var(--azul);
+    padding: 10px;
+}
+
+.vermelho{
+    color: red;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.vermelho.negrito{
+    text-decoration: underline;
+}
+
+*[class]{
+    padding-left: 20px;
+}
+
+img[alt="Foto Autor"]{
+    border: 2px solid blue;
+    border-radius: 50px;
+    width: 25%;
+}
+
+img[alt="Imagem Texto"]{
+    width: 70%;
+}
+
+h1, h2{
+    text-decoration: underline;
+}
+
+a:hover{
+    color: red;
+    font-size: 50px;
+}
+
+a:active{
+    color: blue;
+    font-size: 10px;
+}
+
+img:nth-of-type(1){
+    border: 2px solid blue;
+}
