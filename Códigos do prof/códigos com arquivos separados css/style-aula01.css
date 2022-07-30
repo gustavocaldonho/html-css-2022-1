@@ -1,0 +1,21 @@
+/* Comentário */
+* {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+p{
+    color: gray;
+}
+
+h1{
+    color: blue;
+    font-size: 25px;
+}
+
+.destaque{
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 5px;
+}
